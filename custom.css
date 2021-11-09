@@ -1,0 +1,68 @@
+body
+{
+    background-color: rgb(219, 197, 197);
+}
+
+ .navbar ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar 
+{ text-decoration: none;
+    color:rebeccapurple;
+    text-transform: uppercase;
+
+}
+.navbar ul li::after
+{
+    content: '';
+    width: 0%;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+    text-align: right;
+
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.content
+ {
+     width: 90%;
+     position: absolute;
+     top: 50%;
+     transform: translateY(-40);
+     text-align: center;
+     color:yellow;
+     ;
+ }
+.content
+h1{
+    font-size: 40px;
+    margin: 50px;
+
+     
+}
+button{
+    width: 200px;
+    padding: 10px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+}
+input
+{
+    width: 200px;
+    margin: 50px;
+    height: 40px;
+}
+h2
+{
+color: wheat;
+height: 30px;
+}
